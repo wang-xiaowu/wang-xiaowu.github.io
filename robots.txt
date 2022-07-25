@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wang-xiaowu.github.io/sitemap.xml
+Sitemap: https://wang-xiaowu.github.io/baidusitemap.xml
