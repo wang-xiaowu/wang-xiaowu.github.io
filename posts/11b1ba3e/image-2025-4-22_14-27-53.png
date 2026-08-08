@@ -1,0 +1,524 @@
+    
+
+<!DOCTYPE html>
+<html lang="zh-CN" >
+<head>
+                            <title>登录到 Atlassian - R-Confluence</title>
+    
+        
+
+                        
+    
+                        
+    
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+<meta charset="UTF-8">
+<meta id="confluence-context-path" name="confluence-context-path" content="/confluence">
+<meta id="confluence-base-url" name="confluence-base-url" content="https://confluence.rakuten-it.com/confluence">
+
+    <meta id="atlassian-token" name="atlassian-token" content="a28ef910ebd33b1dfb9e7ebb1d489f16df8e44a7">
+
+<meta id="confluence-cluster-node-id" name="confluence-cluster-node-id" value="36bc0fdd">
+<meta id="confluence-cluster-node-name" name="confluence-cluster-node-name" value="node001">
+
+<script type="text/javascript">
+        var contextPath = '/confluence';
+</script>
+
+    
+
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="robots" content="noarchive">
+    <meta name="confluence-request-time" content="1745566160609">
+        
+    
+        
+            <meta name="ajs-use-keyboard-shortcuts" content="true">
+            <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+            <meta name="ajs-keyboardshortcut-hash" content="e530e37d6a9164f6edadd73e8b6e72fd">
+            <meta id="team-calendars-has-jira-link" content="true">
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12">
+            <meta id="team-calendars-display-week-number" content="true">
+            <meta id="team-calendars-user-timezone" content="Asia/Tokyo">
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="七月"><input type="hidden" name="calendar3.day.short.wednesday" value="星期三"><input type="hidden" name="calendar3.day.short.thursday" value="星期四"><input type="hidden" name="calendar3.month.short.march" value="三月"><input type="hidden" name="calendar3.month.long.april" value="四月"><input type="hidden" name="calendar3.month.long.october" value="十月"><input type="hidden" name="calendar3.month.long.august" value="八月"><input type="hidden" name="calendar3.month.short.july" value="七月"><input type="hidden" name="calendar3.month.short.may" value="五月"><input type="hidden" name="calendar3.month.short.november" value="十一月"><input type="hidden" name="calendar3.day.long.friday" value="星期五"><input type="hidden" name="calendar3.day.long.sunday" value="星期日"><input type="hidden" name="calendar3.day.long.saturday" value="星期六"><input type="hidden" name="calendar3.month.short.april" value="四月"><input type="hidden" name="calendar3.day.long.wednesday" value="星期三"><input type="hidden" name="calendar3.month.long.december" value="十二月"><input type="hidden" name="calendar3.month.short.october" value="十月"><input type="hidden" name="calendar3.day.long.monday" value="星期一"><input type="hidden" name="calendar3.month.short.june" value="六月"><input type="hidden" name="calendar3.day.short.monday" value="星期一"><input type="hidden" name="calendar3.day.short.tuesday" value="星期二"><input type="hidden" name="calendar3.day.short.saturday" value="星期六"><input type="hidden" name="calendar3.month.long.march" value="三月"><input type="hidden" name="calendar3.month.long.june" value="六月"><input type="hidden" name="calendar3.month.short.february" value="二月"><input type="hidden" name="calendar3.month.short.august" value="八月"><input type="hidden" name="calendar3.month.short.december" value="十二月"><input type="hidden" name="calendar3.day.short.sunday" value="星期日"><input type="hidden" name="calendar3.month.long.february" value="二月"><input type="hidden" name="calendar3.day.long.tuesday" value="星期二"><input type="hidden" name="calendar3.month.long.may" value="五月"><input type="hidden" name="calendar3.month.long.september" value="九月"><input type="hidden" name="calendar3.month.long.november" value="十一月"><input type="hidden" name="calendar3.month.short.january" value="一月"><input type="hidden" name="calendar3.month.short.september" value="九月"><input type="hidden" name="calendar3.day.long.thursday" value="星期四"><input type="hidden" name="calendar3.month.long.january" value="一月"><input type="hidden" name="calendar3.day.short.friday" value="星期五"></fieldset></script>
+            <meta name="ajs-is-confluence-admin" content="false">
+            <meta name="ajs-connection-timeout" content="10000">
+            <script type="text/x-template" title="gliffy-webpanel-footer">
+        <div class="gliffy-webpanel-footer"><span></span></div>
+</script>
+
+
+            
+    
+    
+            <meta name="ajs-context-path" content="/confluence">
+            <meta name="ajs-base-url" content="https://confluence.rakuten-it.com/confluence">
+            <meta name="ajs-version-number" content="7.19.17">
+            <meta name="ajs-build-number" content="8804">
+            <meta name="ajs-remote-user" content="">
+            <meta name="ajs-remote-user-key" content="">
+            <meta name="ajs-remote-user-has-licensed-access" content="false">
+            <meta name="ajs-remote-user-has-browse-users-permission" content="false">
+            <meta name="ajs-current-user-fullname" content="">
+            <meta name="ajs-current-user-avatar-url" content="">
+            <meta name="ajs-current-user-avatar-uri-reference" content="/confluence/images/icons/profilepics/anonymous.svg">
+            <meta name="ajs-static-resource-url-prefix" content="/confluence/s/9f8bq0/8804/xgjkrn/_">
+            <meta name="ajs-global-settings-attachment-max-size" content="2097152">
+            <meta name="ajs-global-settings-quick-search-enabled" content="true">
+            <meta name="ajs-user-locale" content="zh_CN">
+            <meta name="ajs-user-timezone-offset" content="32400000">
+            <meta name="ajs-enabled-dark-features" content="confluence.denormalisedpermissions,com.atlassian.confluence.officeconnector.canary,com.adaptavist.confluence.forms.disablepopups,site-wide.shared-drafts.disable,clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,frontend.editor.v4,http.session.registrar,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,frontend.editor.v4.compatibility,atlassian.cdn.static.assets,pdf-preview,previews.sharing,previews.versions,file-annotations,confluence.efi.onboarding.rich.space.content,collaborative-audit-log,confluence.reindex.improvements,previews.conversion-service,editor.ajax.save,read.only.mode,graphql,previews.trigger-all-file-types,attachment.extracted.text.extractor,lucene.caching.filter,confluence.table.resizable,notification.batch,previews.sharing.pushstate,confluence-inline-comments-rich-editor,tc.tacca.dacca,site-wide.synchrony.opt-in,atlassian.webresource.twophase.js.i18n.disabled,file-annotations.likes,gatekeeper-ui-v2,v2.content.name.searcher,mobile.supported.version,confluence.editor.tinymce.tables,pulp,confluence-inline-comments,confluence-inline-comments-dangling-comment,quick-reload-inline-comments-flags,confluence.retention.rules">
+            <meta name="ajs-atl-token" content="a28ef910ebd33b1dfb9e7ebb1d489f16df8e44a7">
+            <meta name="ajs-confluence-flavour" content="VANILLA">
+            <meta name="ajs-user-date-pattern" content="yyyy-M-d">
+            <meta name="ajs-access-mode" content="READ_WRITE">
+            <meta name="ajs-render-mode" content="READ_WRITE">
+            <meta name="ajs-date.format" content="MMM dd, yyyy">
+    
+    <link rel="shortcut icon" href="/confluence/s/9f8bq0/8804/xgjkrn/52/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/confluence/s/9f8bq0/8804/xgjkrn/52/_/favicon.ico">
+
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-slack-server-integration-plugin:slack-link-error-resources.slack-link-error"]="{}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022\u4eba\u7fa4\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022Fisheye / Crucible\u0022,\u0022stash\u0022:\u0022\u6682\u5b58\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022\u76f8\u5173\u5e94\u7528\u7a0b\u5e8f\u0022,\u0022bamboo\u0022:\u0022\u7af9\u0022,\u0022generic\u0022:\u0022\u901a\u7528\u5e94\u7528\u7a0b\u5e8f\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible\u9879\u76ee\u0022,\u0022fecru.repository\u0022:\u0022FishEye \u4ed3\u5e93\u0022,\u0022stash.project\u0022:\u0022Stash \u9879\u76ee\u0022,\u0022generic.entity\u0022:\u0022\u901a\u7528\u9879\u76ee\u0022,\u0022confluence.space\u0022:\u0022Confluence\u7a7a\u95f4\u0022,\u0022bamboo.project\u0022:\u0022Bamboo\u9879\u76ee\u0022,\u0022jira.project\u0022:\u0022Jira \u9879\u76ee\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022\u67e5\u7406\u65af\u0022,\u0022fecru.project\u0022:\u0022Crucible\u9879\u76ee\u0022,\u0022fecru.repository\u0022:\u0022FishEye \u4ed3\u5e93\u96c6\u0022,\u0022stash.project\u0022:\u0022Stash\u9879\u76ee\u0022,\u0022generic.entity\u0022:\u0022\u901a\u7528\u9879\u76ee\u0022,\u0022confluence.space\u0022:\u0022Confluence\u7a7a\u95f4\u0022,\u0022bamboo.project\u0022:\u0022Bamboo\u9879\u76ee\u0022,\u0022jira.project\u0022:\u0022Jira \u9879\u76ee\u0022}}";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022/confluence\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022\u57fa\u672c\u8bbf\u95ee\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022\u4fe1\u4efb\u7684\u5e94\u7528\u65e0\u6548\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022\u6b4c\u73e5\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022Oauth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022Oauth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022Oauth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022\u67e5\u770b\u66f4\u591a\u6700\u8fd1\u8bbf\u95ee\u0022,\u0022search.ui.search.results.empty\u0022:\u0022\u6211\u4eec\u627e\u4e0d\u5230\u4efb\u4f55\u5339\u914d\u201c{0}\u201d\u7684\u5185\u5bb9\u3002\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022\u6e05\u9664\u6240\u9009\u9879\u76ee\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022\u663e\u793a\u66f4\u591a\u5e94\u7528\u7ed3\u679c......\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022\u8d21\u732e\u8005\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022\u5f53\u524d\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022\u6e05\u9664\u6587\u672c\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022\u6e05\u7a7a\u7b5b\u9009\u5668\u3002\u0022,\u0022help.search.ui.link.title\u0022:\u0022\u641c\u7d22\u6280\u5de7\u0022,\u0022search.ui.container.close.text\u0022:\u0022\u5173\u95ed\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022\u8fc7\u53bb\u4e00\u4e2a\u6708\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022\u66f4\u591a\u7ed3\u679c\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022\u65e5\u671f\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022\u8fc7\u53bb\u4e00\u5468\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022\u56e2\u961f\u65e5\u7a0b\u8868\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022\u4e0a\u6b21\u4fee\u6539\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022\u67e5\u627e\u7a7a\u95f4\u0022,\u0022search.ui.generic.error\u0022:\u0022\u51fa\u9519\u4e86\u3002\u5237\u65b0\u9875\u9762\uff0c\u6216\u8005\u5982\u679c\u6301\u7eed\u53d1\u751f\u8fd9\u79cd\u60c5\u51b5\uff0c\u8bf7\u8054\u7cfb\u60a8\u7684\u7ba1\u7406\u5458\u3002\u0022,\u0022search.ui.recent.spaces\u0022:\u0022\u6700\u8fd1\u7a7a\u95f4\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022\u7a7a\u95f4\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022\u67e5\u627e\u7a7a\u95f4\u7c7b\u522b......\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022\u641c\u7d22\u5df2\u7ecf\u5f52\u6863\u7684\u7a7a\u95f4\u0022,\u0022search.ui.filter.label\u0022:\u0022\u7b5b\u9009\u5668\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022\u968f\u65f6\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022\u8fc7\u53bb\u4e00\u5929\u0022,\u0022search.ui.filters.heading\u0022:\u0022\u7b5b\u9009\u65b9\u5f0f\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022\u67e5\u627e\u6807\u7b7e......\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022\u5f00\u59cb\u63a2\u7d22\u3002 \u60a8\u7684\u641c\u7d22\u7ed3\u679c\u5c06\u663e\u793a\u5728\u6b64\u5904\u3002\u0022,\u0022search.ui.input.label\u0022:\u0022\u641c\u7d22\u0022,\u0022search.ui.input.aria.label\u0022:\u0022\u641c\u7d22\uff0c\u8f93\u5165\u65f6\uff0c\u641c\u7d22\u7ed3\u679c\u5c06\u5728\u4e0b\u65b9\u663e\u793a\u3002\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0}\u4e2a\u641c\u7d22\u7ed3\u679c|1\u003c{0}\u4e2a\u641c\u7d22\u7ed3\u679c}\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022\u6807\u7b7e\u0022,\u0022search.ui.container.clear.ariaLabel\u0022:\u0022\u6e05\u9664\u0022,\u0022search.ui.input.alert\u0022:\u0022\u6309\u56de\u8f66\u952e(Enter)\u641c\u7d22\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022\u6211\u4eec\u627e\u4e0d\u5230\u4efb\u4f55\u7b26\u5408\u60a8\u641c\u7d22\u6761\u4ef6\u7684\u5185\u5bb9\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022\u7528\u6237\u8d44\u6599\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022\u67e5\u627e\u4eba\u5458......\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022\u7c7b\u578b\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022\u8fc7\u53bb\u4e00\u5e74\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022\u9ad8\u7ea7\u641c\u7d22\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022\u7a7a\u95f4\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022\u8bf7\u5c1d\u8bd5\u4e0d\u540c\u7684\u641c\u7d22\u5173\u952e\u5b57\u6216\u8005\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022\u7a7a\u95f4\u7c7b\u522b\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022\u627e\u4e0d\u5230\u5339\u914d\u7684\u641c\u7d22\u7ed3\u679c\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022\u663e\u793a\u66f4\u591a\u8bbe\u7f6e\u548c\u5e94\u7528\u7ed3\u679c...\u0022,\u0022search.ui.recent.pages\u0022:\u0022\u6700\u8fd1\u8bbf\u95ee\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0}\u4e2a\u641c\u7d22\u7ed3\u679c| 1 \u003c{0}\u4e2a\u641c\u7d22\u7ed3\u679c}\u3002 \u60a8\u6709\u5e10\u6237\u5417\uff1f{1}\u767b\u5f55{2}\u641c\u7d22\u66f4\u591a\u7ed3\u679c\u3002\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022\u5f00\u59cb\u63a2\u7d22\u3002 \u60a8\u6700\u8fd1\u8bbf\u95ee\u8fc7\u7684\u9875\u9762\u548c\u7a7a\u95f4\u5c06\u663e\u793a\u5728\u6b64\u5904\u3002\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022\u6700\u8fd1\u7a7a\u95f4\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-082/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.adding.project.link\u0022:\u0022Configuring+Project+links+across+Applications\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+WRM._unparsedData["com.atlassian.plugins.authentication.atlassian-authentication-plugin:login-gateway-data"]="{\u0022product\u0022:\u0022conf\u0022,\u0022destination\u0022:\u0022/download/attachments/5769179169/image-2025-4-22_14-27-53.png?version\u005Cu003d1\u005Cu0026modificationDate\u005Cu003d1745311599591\u005Cu0026api\u005Cu003dv2\u0022}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link rel="stylesheet" href="/confluence/s/af4e8f742b64770e1e2925ad38c81990-CDN/9f8bq0/8804/xgjkrn/004fea3af171bcbf8e59c62867f092d8/_/download/contextbatch/css/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.css" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/confluence/s/85aded984d32e6df43893124b5aff573-CDN/9f8bq0/8804/xgjkrn/4665b813a51e5ab718553228b3fcd974/_/download/contextbatch/css/main,atl.general,-_super/batch.css?hostenabled=true&amp;slack-enabled=true" data-wrm-key="main,atl.general,-_super" data-wrm-batch-type="context" media="all">
+<link rel="stylesheet" href="/confluence/s/d41d8cd98f00b204e9800998ecf8427e-CDN/9f8bq0/8804/xgjkrn/4.2.27/_/download/batch/com.atlassian.plugins.authentication.atlassian-authentication-plugin:entrypoint-login-page-ui/com.atlassian.plugins.authentication.atlassian-authentication-plugin:entrypoint-login-page-ui.css" data-wrm-key="com.atlassian.plugins.authentication.atlassian-authentication-plugin:entrypoint-login-page-ui" data-wrm-batch-type="resource" media="all">
+<link rel="stylesheet" href="/confluence/s/9f8bq0/8804/xgjkrn/52/_/styles/colors.css" media="all">
+<script data-wrm-key="com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="resource" data-initially-rendered>
+!function(){"use strict";if("PerformanceObserver"in window){const e=[];window.__observedResources=e;const r=e=>"script"===e?"script":"css";new PerformanceObserver((n=>{n.getEntries().filter((({initiatorType:e,name:r})=>{const n="script"===e||((e,r)=>"link"===e&&"css"===new URL(r).pathname.split(".").pop())(e,r),i=new URL(location.href).origin===new URL(r).origin;return n&&i})).forEach((({name:n,transferSize:i,encodedBodySize:s,initiatorType:o})=>{e.push([i,s,n,r(o)])}))})).observe({type:"resource"})}}();
+
+</script>
+<script src="/confluence/s/2bd78cc58bab0ed946841f79b54089a4-CDN/9f8bq0/8804/xgjkrn/004fea3af171bcbf8e59c62867f092d8/_/download/contextbatch/js/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.js?locale=zh-CN" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/confluence/s/e342af495c7ea6dabd9699075861d5aa-CDN/9f8bq0/8804/xgjkrn/4665b813a51e5ab718553228b3fcd974/_/download/contextbatch/js/main,atl.general,-_super/batch.js?hostenabled=true&amp;locale=zh-CN&amp;slack-enabled=true" data-wrm-key="main,atl.general,-_super" data-wrm-batch-type="context" data-initially-rendered></script>
+<script src="/confluence/s/aab8a0facbf3312ce21de11bc3e78092-CDN/9f8bq0/8804/xgjkrn/4.2.27/_/download/batch/com.atlassian.plugins.authentication.atlassian-authentication-plugin:entrypoint-login-page-ui/com.atlassian.plugins.authentication.atlassian-authentication-plugin:entrypoint-login-page-ui.js?locale=zh-CN" data-wrm-key="com.atlassian.plugins.authentication.atlassian-authentication-plugin:entrypoint-login-page-ui" data-wrm-batch-type="resource" data-initially-rendered></script>
+<script type="module">WRM.requireLazily(["wr!com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-async"])</script>
+    
+
+        
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="decorator" content="atl.general"/><meta name="viewport" content="width=device-width; initial-scale=1">
+    <style text="text/css">
+span.analytics-chart-control > button[data-testid ='export-dropdown']{ display:none; }
+</style>
+<script type="text/javascript">
+AJS.toInit(function() {
+    jQuery("div.aui-page-header-main", "div.cq-page-header").append('<div class="aui-message aui-message-info info cq-no-featured-topics"><h1 class="center"><strong>Welcome to Rakuten Confluence Questions!</strong></h1></p>Please keep the questions and answers related to technical topics, do not use it for general Rakuten questions, off topic subjects or HR related questions. Be polite and kind, do not violate the Rakuten code of ethics.</p><a href = https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=2488527014>Link to Questions guide</href></div>');
+});
+</script>
+
+<style text="text/css">
+#ratlassian-support-dialog table.aui tbody td { padding-top:12px; padding-bottom:12px; vertical-align:middle; }
+#ratlassian-support-dialog div.ratlassian-support-body { padding-left:10px; margin-top:10px; }
+
+</style>
+<script type="text/javascript">
+var supportDialog;
+AJS.toInit(function() {
+    AJS.$('.aui-header-secondary .aui-nav ').prepend('<li><button class="aui-button aui-style aui-button-primary" id="ratlassian-support-dialog-button">Request</button></li>');
+    AJS.$('#ratlassian-support-dialog-button').click(function() {
+       document.location.href='https://jira.rakuten-it.com/jira/servicedesk/customer/portal/19';
+    });
+    // AJS.$('.aui-header-secondary .aui-nav ').prepend('<li><button class="aui-button aui-style aui-button-primary" id="ratlassian-support-dialog-button">Support</button></li>');
+    supportDialog = new AJS.Dialog({
+        width: 960,
+        height: 610,
+        id: "ratlassian-support-dialog",
+        closeOnOutsideClick: true
+    });
+
+    // PAGE 0
+    supportDialog.addHeader("R-Atlassian Support Portal");
+    supportDialog.addPanel('JIRA', '<h4>How can we help you with JIRA?</h4><div class=ratlassian-support-body><table class=aui><tbody><tr><td><button class="aui-button aui-style aui-button-primary" id=jira-project onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/HI3uAg\'"><span class="aui-icon aui-icon-small aui-iconfont-jira"></span> JIRA Project</button><td>Submit a request to create, delete, or archive a JIRA project.<tr><td><button class="aui-button aui-style aui-button-primary" id=jira-customization onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/AtRESg\'"><span class="aui-icon aui-icon-small aui-iconfont-jira"></span> JIRA Customization</button><td>Submit a request to customize or configure an existing JIRA project.<tr><td><button class="aui-button aui-style aui-button-primary" id=jira-tempo-customization onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/KZE3Nw\'"><span class="aui-icon aui-icon-small aui-iconfont-time"></span> Tempo Customization</button><td>Need to setup internal issues or activities, etc. in Tempo?<tr><td><button class="aui-button aui-style aui-button-primary" id=jira-network-access onclick="supportDialog.gotoPage(1);"><span class="aui-icon aui-icon-small aui-iconfont-locked"></span> Network Access</button><td>Submit an ACL request to allow access from your IP address.<tr><td><button class="aui-button aui-style aui-button-primary" id=jira-account-help onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/lCVvUg\'"><span class="aui-icon aui-icon-small aui-iconfont-user"></span> Non-INTRA Accounts</button><td>Non-INTRA account creation, deletion, group membership, etc.<tr><td><button class="aui-button aui-style aui-button-primary" id=jira-problem-report onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-warning"></span> Problem Report</button><td>Problem? Something not functioning correctly? Report it here.<tr><td><button class="aui-button aui-style aui-button-primary" id=jira-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('Confluence', '<h4>How can we help you with Confluence?</h4><div class=ratlassian-support-body><table class=aui><tbody><tr><td><button class="aui-button aui-style aui-button-primary" id=confluence-space onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/9qTHAg\'"><span class="aui-icon aui-icon-small aui-iconfont-confluence"></span> Confluence Space</button><td>Submit a request to create, delete, or archive a Confluence space.<tr><td><button class="aui-button aui-style aui-button-primary" id=confluence-network-access onclick="supportDialog.gotoPage(1);"><span class="aui-icon aui-icon-small aui-iconfont-locked"></span> Network Access</button><td>Submit an ACL request to allow access from your IP address.<tr><td><button class="aui-button aui-style aui-button-primary" id=confluence-account-help onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/lCVvUg\'"><span class="aui-icon aui-icon-small aui-iconfont-user"></span> Non-INTRA Accounts</button><td>Non-INTRA account creation, deletion, group membership, etc.<tr><td><button class="aui-button aui-style aui-button-primary" id=confluence-problem-report onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-warning"></span> Problem Report</button><td>Problem? Something not functioning correctly? Report it here.<tr><td><button class="aui-button aui-style aui-button-primary" id=confluence-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('Bitbucket', '<h4>How can we help you with Bitbucket? (Old name is Stash)</h4><div class=ratlassian-support-body><div class=aui-message><p class=title><strong>Bitbucket (git.rakuten-it.com)</strong><p>This panel refers to our <b>Bitbucket</b> instance (<b>git.rakuten-it.com</b>). <a href=https://confluence.rakuten-it.com/confluence/x/OcBhNg>Learn more</a>.</div><table class=aui><tr><td><button class="aui-button aui-button-primary aui-style"id=stash-network-access onclick=supportDialog.gotoPage(1)><span class="aui-icon aui-icon-small aui-iconfont-locked"></span> Network Access</button><td>Submit an ACL request to allow access from your IP address.<tr><td><button class="aui-button aui-button-primary aui-style"id=stash-account-help onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/lCVvUg\'"><span class="aui-icon aui-icon-small aui-iconfont-user"></span> Non-INTRA Accounts</button><td>Non-INTRA account creation, deletion, group membership, etc.<tr><td><button class="aui-button aui-button-primary aui-style"id=stash-problem-report onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-warning"></span> Problem Report</button><td>Problem? Something not functioning correctly? Report it here.<tr><td><button class="aui-button aui-button-primary aui-style"id=stash-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('Gitpub', '<h4>How can we help you with Gitpub?</h4><div class=ratlassian-support-body><div class=aui-message><p class=title><strong>Gitpub (gitpub.rakuten-it.com)</strong><p>This panel refers to our <b>Gitpub</b> instance (<b>gitpub.rakuten-it.com</b>). <a href=https://confluence.rakuten-it.com/confluence/x/UYedNg>Learn more</a>.</div><table class=aui><tr><td><button class="aui-button aui-button-primary aui-style"id=gitpub-get-started onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/JIFKAQ\'"><span class="aui-icon aui-icon-small aui-iconfont-devtools-branch"></span> Get Started</button><td>Want to get started using Gitpub? Don\'t know how?<tr><td><button class="aui-button aui-button-primary aui-style"id=gitpub-project onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/lh2pV\'"><span class="aui-icon aui-icon-small aui-iconfont-devtools-branch"></span> Gitpub Project</button><td>Submit a request to create or delete a Gitpub project.<tr><td><button class="aui-button aui-button-primary aui-style"id=gitpub-network-access onclick=supportDialog.gotoPage(1)><span class="aui-icon aui-icon-small aui-iconfont-locked"></span> Network Access</button><td>Submit an ACL request to allow access from your IP address.<tr><td><button class="aui-button aui-button-primary aui-style"id=gitpub-account-help onclick="location.href=\'   https://confluence.rakuten-it.com/confluence/x/lCVvUg\'"><span class="aui-icon aui-icon-small aui-iconfont-user"></span> Non-INTRA Accounts</button><td>Non-INTRA account creation, deletion, group membership, etc.<tr><td><button class="aui-button aui-button-primary aui-style"id=gitpub-problem-report onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-warning"></span> Problem Report</button><td>Problem? Something not functioning correctly? Report it here.<tr><td><button class="aui-button aui-button-primary aui-style"id=gitpub-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('Crowd','<h4>How can we help you with Crowd?</h4><div class=ratlassian-support-body><div class=aui-message><p class=title><strong>What\'s Crowd?</strong><p>Atlassian Crowd is the user authentication tool we use to create and manage accounts of non-INTRA users. Subsidiaries, external companies, etc. not on INTRA need to have accounts created for them in Crowd in order to use the R-Atlassian tools. <a href=https://confluence.rakuten-it.com/confluence/x/To0JNQ>Learn more</a>.</div><table class=aui><tr><td><button class="aui-button aui-button-primary aui-style"id=crowd-account onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/lCVvUg\'"><span class="aui-icon aui-icon-small aui-iconfont-user"></span> Crowd Accounts</button><td>Create/delete a Crowd account, modify group membership, etc.<tr><td><button class="aui-button aui-button-primary aui-style"id=crowd-forgot-password onclick="location.href=\'https://crowd.rakuten-it.com/crowd/console/forgottenlogindetails!default.action\'"><span class="aui-icon aui-icon-small aui-iconfont-error"></span> Forgot Password</button><td>Forget your Crowd username or password? <b>Not for INTRA accounts</b>.<tr><td><button class="aui-button aui-button-primary aui-style"id=crowd-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('HipChat', '<h4>How can we help you with HipChat?</h4><div class=ratlassian-support-body><div class=aui-message><p class=title><strong>What\'s HipChat?</strong><p>HipChat is a <b>cloud-based</b> chat service operated by <b>Atlassian</b>. Our instance is <b>rakuten.hipchat.com</b>. <a href=https://confluence.rakuten-it.com/confluence/x/lo0JNQ>Learn more</a>.</div><table class=aui><tr><td><button class="aui-button aui-button-primary aui-style"id=hipchat-account onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/3SfWW\'"><span class="aui-icon aui-icon-small aui-iconfont-hipchat"></span> HipChat Room Owner</button><td>Change a Room Owner.<tr><td><button class="aui-button aui-button-primary aui-style"id=hipchat-forgot-password onclick="location.href=\'https://www.hipchat.com/forgot_password\'"><span class="aui-icon aui-icon-small aui-iconfont-error"></span> Forgot Password</button><td>Forget your HipChat account password? Reset it here.<tr><td><button class="aui-button aui-button-primary aui-style"id=hipchat-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('General / Other', '<h4>How can we help you?</h4><div class=ratlassian-support-body><table class=aui><tbody><tr><td><button class="aui-button aui-style aui-button-primary" id=general-network-access onclick="supportDialog.gotoPage(1);"><span class="aui-icon aui-icon-small aui-iconfont-locked"></span> Network Access</button><td>Request access to the R-Atlassian tools from your IP address.<tr><td><button class="aui-button aui-style aui-button-primary" id=general-account-help onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/lCVvUg\'"><span class="aui-icon aui-icon-small aui-iconfont-user"></span> Non-INTRA Accounts</button><td>Non-INTRA account creation, deletion, group membership, etc.<tr><td><button class="aui-button aui-style aui-button-primary" id=general-problem-report onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-warning"></span> Problem Report</button><td>Problem? Something not functioning correctly? Report it here.<tr><td><button class="aui-button aui-style aui-button-primary" id=general-inquiry onclick="location.href=\'https://rakutenghd.zendesk.com/hc/en-us/requests/new?scid=wi_atlassian\'"><span class="aui-icon aui-icon-small aui-iconfont-help"></span> Inquiry / Other</button><td>Have a question? Need help with something not listed here?</table></div>', 'panel-body');
+    supportDialog.addPanel('Help Resources', '<h4>Help Resources</h4><div class=ratlassian-support-body><table class=aui><tr><td><button class="aui-button aui-button-primary aui-style"id=resources-user-manual onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/RgocMw\'"><span class="aui-icon aui-icon-small aui-iconfont-flag"></span> User Manual</button><td>Our in-house R-Atlassian user manual.<tr><td><button class="aui-button aui-button-primary aui-style"id=resources-atlassian-university onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/XBYNNQ\'"><span class="aui-icon aui-icon-small aui-iconfont-weblink"></span> Atlassian University</button><td>Atlassian training tool with videos and interactive tutorials.<tr><td><button class="aui-button aui-button-primary aui-style"id=resources-confluence-guidelines onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/HowJNQ\'"><span class="aui-icon aui-icon-small aui-iconfont-confluence"></span> Confluence Guidelines</button><td>Our in-house Confluence Usage Guidelines document.<tr><td><button class="aui-button aui-button-primary aui-style"id=resources-jira-guidelines onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/EY4JNQ\'"><span class="aui-icon aui-icon-small aui-iconfont-jira"></span> JIRA Guidelines</button><td>Our in-house JIRA Usage Guidelines document.<tr><td><button class="aui-button aui-button-primary aui-style"id=resources-Bitbucket-buidelines onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/OcBhNg\'"><span class="aui-icon aui-icon-small aui-iconfont-bitbucket"></span> Bitbucket Guidelines</button><td>Our Bitbucket Usage Guidelines document.<tr><td><button class="aui-button aui-button-primary aui-style"id=resources-CSD-buidelines onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/P4_dNg\'"><span class="aui-icon aui-icon-small aui-iconfont-editor-emoticon"></span> CSD Guidelines</button><td>Confluence Service Desk (CSD) Guidelines document.</table></div>', 'panel-body');
+    supportDialog.addLink("Cancel", function(supportDialog) {
+        supportDialog.hide();
+    }, "#");
+
+    // PAGE 1
+    supportDialog.addPage();
+    supportDialog.addHeader("Network Access");
+    supportDialog.addPanel('Network Access', '<h4>Who or what is it that needs access to the R-Atlassian tools?</h4><div class=ratlassian-support-body><table class=aui><tbody><tr><td><button class="aui-button aui-button-primary" onclick="location.href=\'https://confluence.rakuten-it.com/confluence/x/Uz39Tg\'">A Rakuten subsidiary</button><td>An entity within the Rakuten group, but not on the INTRA network.<tr><td><button class="aui-button aui-button-primary" onclick="location.href=\'https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=1383016422#12386\'">An external company</button><td>An external company not part of the Rakuten group (e.g. vendor, contractor).<tr><td><button class="aui-button aui-button-primary" onclick="location.href=\'https://confluence.rakuten-it.com/confluence/pages/viewpage.action?pageId=1383016422#23204\'">A public cloud server</button><td>A server hosted on a public cloud service.</table></div>', 'panel-body');
+    supportDialog.addButton("Back", function(supportDialog) {
+        supportDialog.gotoPage(0);
+    });
+    supportDialog.addLink("Cancel", function(supportDialog) {
+        supportDialog.hide();
+    }, "#");
+
+    AJS.$("#ratlassian-support-dialog-button-page").click(function() {
+        supportDialog.gotoPage(0); // Initial page
+        supportDialog.gotoPanel(1); // Confluence panel
+        supportDialog.show();
+    });
+});
+
+</script>
+<script type="text/javascript">
+window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"b73cf60f7a",applicationID:"170240914",sa:1}
+
+</script>
+
+<!--
+Jira Issue: https://jira.rakuten-it.com/jira/browse/RTECHADM-3288
+
+The JavaScript code below should be added to built-in Custom HTML function inside R-Confluence (Head Part), as it adds a custom information banner on the SSO login page.
+You can find the announcement banner here: https://confluence.rakuten-it.com/confluence/admin/editcustomhtml.action
+-->
+<script type="text/javascript">
+AJS.toInit(function() {
+  if (AJS.$(location).attr('pathname') == AJS.contextPath() + "/login.action") {
+    if (AJS.$('#react-container').length) {
+      AJS.$('#react-container').before('<div style="margin-top: 30px;margin-left: auto;margin-right: auto;width: 780px;height: auto;"> <div class="aui-message aui-message-info"> <p class="title"><strong>Important information / 重要なお知らせ</strong></p> <p>If you have never logged into R-Confluence before OR if you have not logged in for 1 month you MUST login with USERNAME and PASSWORD. Logging in with domain USERNAME and PASSWORD will activate your account. SSO login will only work for users that have active accounts!</p> <p>R-Confluenceに初めてログインする場合、もしくは、1か月以上ログインしていなかった場合は、ユーザー名とパスワードでのログインが必要です。ユーザー名とパスワードでのログインでアカウントを有効化することができます。SSOログインは有効なアカウントでのみ可能です。</p> </div></div>');
+    }
+  }
+});
+</script>
+<!--
+
+Jira Issue: https://jira.rakuten-it.com/jira/browse/RTECHADM-5690
+
+The JavaScript code below should be added to built-in Custom HTML function inside R-Confluence (Head Part), as it adds a custom warning box in the Edit Restrictions panel.
+You can find the announcement banner here: https://confluence.rakuten-it.com/confluence/admin/editcustomhtml.action
+
+-->
+<script type="text/javascript">
+AJS.toInit(function() {
+  function waitForElementToLoad(selector) {
+    return new Promise(resolve => {
+      if (document.querySelector(selector)) {
+        return resolve(document.querySelector(selector));
+      }
+
+      const observer = new MutationObserver(mutations => {
+        if (document.querySelector(selector)) {
+          observer.disconnect();
+          resolve(document.querySelector(selector));
+        }
+      });
+
+      observer.observe(document, {
+        childList: true,
+        subtree: true
+      });
+    });
+  }
+
+  AJS.$('#action-page-permissions-link').on("click", function() {
+    waitForElementToLoad('.page-restrictions-dialog-top').then((elm) => {
+      AJS.$('.page-restrictions-dialog-top').prepend('<div style="margin-top: auto;margin-left: 18px;margin-right: 18px;margin-bottom: 15px;width: 760px;height: auto;"><div class="aui-message aui-message-error"><p class="title"><strong>Important information / 重要なお知らせ</strong></p><p>Applying page restrictions to the home page, large page trees (more than 3 levels of child pages) or page structures with many attachments <strong>will cause performance issues</strong> for Confluence which will affect <strong>all users</strong>. Please refrain from doing page restrictions for larger page trees <strong>during Japan business hours</strong>.<br/>If a move, copy or permission change <strong>fails or times out</strong> please <strong>not retry, it is likely running in the background</strong>. For more information, please read <a href="https://confluence.rakuten-it.com/confluence/x/xz6JPAE">here</a>.</p><p>ホームページやページ数が多いページツリー、添付ファイルが多いページなどにページ制限を設定した場合、<strong>Confluenceのパフォーマンスに問題を引き起こし</strong>、<strong>すべてのユーザー</strong>に影響を与えます。そのため<strong>日本の営業時間内</strong>は、<strong>ページ制限を設定することはご遠慮ください</strong>。ページ制限の設定が<strong>タイムアウト</strong>になった場合でも、バックグラウンド処理は動作していますので<strong>再試行しないでください</strong>。詳しくは<a href="https://confluence.rakuten-it.com/confluence/x/xz6JPAE">こちら</a>をご覧ください。</p></div></div>');
+    });
+  });
+
+});
+</script>
+
+    
+</head>
+
+    
+<body      id="com-atlassian-confluence" class="theme-default  aui-layout aui-theme-default">
+
+        
+            <div id='stp-licenseStatus-banner'></div>
+            
+    <div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+        
+
+
+
+
+
+<header id="header" role="banner">
+            <a class="aui-skip-link" href="https://confluence.rakuten-it.com/confluence/login.action">登录</a>
+            <a class="aui-skip-link" href="#nav-sidebar">跳转至侧边栏</a>
+        <a class="aui-skip-link" href="#main">跳转至主要内容</a>
+    <nav class="aui-header aui-dropdown2-trigger-group" aria-label="站点"><div class="aui-header-inner"><div class="aui-header-before"><button class=" aui-dropdown2-trigger app-switcher-trigger aui-dropdown2-trigger-arrowless" aria-controls="app-switcher" aria-haspopup="true" role="button" data-aui-trigger href="#app-switcher"><span class="aui-icon aui-icon-small aui-iconfont-appswitcher">已链接应用程序</span></button><div id="app-switcher" class="aui-dropdown2 aui-style-default" role="menu" hidden data-is-user-admin="false" data-is-switcher="true"><div class="app-switcher-loading">正在加载...</div></div></div><div class="aui-header-primary"><span id="logo" class="aui-header-logo aui-header-logo-custom"><a href="/confluence/" aria-label="转到主页"><img src="/confluence/download/attachments/589826/atl.site.logo?version=6&amp;modificationDate=1588309339578&amp;api=v2" alt="R-Confluence" /></a></span><ul class="aui-nav">
+                                        <li class="aui-buttons">
+            </li>
+</ul>
+</div><div class="aui-header-secondary"><ul class="aui-nav">
+                        <li>
+            
+        <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger aui-dropdown2-trigger-arrowless" href="#" aria-haspopup="true" aria-owns="help-menu-link-content" title="帮助">
+        <span class="aui-icon aui-icon-small aui-iconfont-question-filled">帮助</span>
+    </a>
+    <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default">
+                    <div class="aui-dropdown2-section">
+                                <ul  id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+        
+            
+<a  id="confluence-help-link" href="https://docs.atlassian.com/confluence/docs-719/" class="    "      title="访问Confluence文档首页"  target="_blank"
+>
+        在线帮助
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="keyboard-shortcuts-link" href="/confluence" class="    "      title="查看可用的键盘快捷方式" >
+        快捷键
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="feed-builder-link" href="/confluence/dashboard/configurerssfeed.action" class="    "      title="创建个性化的 RSS源。" >
+        RSS源建立器
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="whats-new-menu-link" href="https://confluence.atlassian.com/display/DOC/Confluence+7.19+Release+Notes" class="    "      title="" >
+        新功能
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="gadget-directory-link" href="/confluence" class="   user-item administration-link "      title="浏览小工具" >
+        可用的小工具
+</a>
+</li>
+                                            <li>
+    
+            
+<a  id="confluence-about-link" href="/confluence/aboutconfluencepage.action" class="    "      title="获取关于Confluence的更多信息" >
+        关于Confluence
+</a>
+</li>
+                                    </ul>
+            </div>
+            </nav>
+    
+    </li>
+        <li>
+                
+    
+    </li>
+        <li>
+            
+    </li>
+        <li>
+                                            <li>
+        
+            
+<a  id="login-link" href="/confluence/login.action" class="   user-item login-link "      title="" >
+        登录
+</a>
+</li>
+                        
+    </li>
+    </ul>
+</div></div><!-- .aui-header-inner--></nav><!-- .aui-header -->
+    <br class="clear">
+</header>
+    
+
+        <!-- \#header -->
+
+            
+    
+        <main role="main" id="main" class=" aui-page-panel">
+                
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        <div id="react-container"></div>
+            </main><!-- \#main -->
+            
+    
+    
+        
+            
+            
+
+<div id="footer" role="contentinfo">
+    <section class="footer-body">
+
+                                                    
+        
+
+        <ul id="poweredby">
+            <li class="noprint">基于 <a href="https://www.atlassian.com/software/confluence" class="hover-footer-link" rel="nofollow">Atlassian Confluence</a> <span id='footer-build-information'>7.19.17</span> <span id='footer-cluster-node'>(node001: 36bc0fdd)</span> 技术构建</li>
+            <li class="print-only">由 Atlassian 合流7.19.17 打印</li>
+            <li class="noprint"><a href="https://support.atlassian.com/confluence-server/" class="hover-footer-link" rel="nofollow">报告缺陷</a></li>
+            <li class="noprint"><a href="https://www.atlassian.com/company" class="hover-footer-link" rel="nofollow">Atlassian 新闻</a></li>
+        </ul>
+
+        
+
+        <div id="footer-logo"><a href="https://www.atlassian.com/" rel="nofollow">Atlassian</a></div>
+
+                    <script type="text/javascript">
+AJS.toInit(function() {
+    if (!AJS.$("#administration-link").length) {
+        var msg = `
+            <div id="space-tools-body">
+                <div class="greyboxfilled">
+                    <div class="aui-message warning ">
+                        <p class="title">
+                            <span class="aui-icon icon-warning"></span>
+                            <strong>WARNING</strong>
+                        </p>
+                        <p>Deleting a space will delete all its content (including pages, comments, attachments and blogposts). This operation <b>cannot be undone</b>, once the space is deleted, it cannot be retrieved. It will be gone forever.</p>
+                    </div>
+                    <div class="requestDeleteSpace" style="margin-top:30px;">
+                        <p>If you are sure that the space is not required anymore and want to remove it together with all the content, please go to <a href="https://confluence.rakuten-it.com/confluence/display/GDT/Confluence+Space+Creation+Request+Form">Confluence Space Delete Request Form</a> and raise a request to delete this space.</p>
+                    </div>
+                </div>
+            </div>`;
+
+        AJS.$('form[name=removespaceform]').html(msg);
+    }
+});
+</script>
+
+<!--
+The below issue collector was disabled (commented out) on 2022-08-23. The reason was that the issue collector was no longer being used by RMS Marketing Team (key: rmsme) space users.
+ -->
+
+<!--
+<script type="text/javascript">
+
+    window.ATL_JQ_PAGE_PROPS = {};
+    AJS.toInit(function() {
+        AJS.$.ajax({
+            url: "https://jira.rakuten-it.com/jira/s/a657b6427d91af46b239d844496b1209-T/en_US-aug0so/6337/454/1.4.15/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=d9e83178",
+            type: "get",
+            cache: true,
+            dataType: "script",
+            complete: function(XMLHttpRequest, textStatus){
+                // console.log("Issue Collectors ajax get complete!!!");
+            }
+        });
+
+    window.ATL_JQ_PAGE_PROPS["d9e83178"] = {
+            triggerFunction: function(showCollectorDialog) {
+                AJS.$("#wikiPageAuditRequest").click(function(e) {
+                    window.ATL_JQ_PAGE_PROPS["d9e83178"].fieldValues['customfield_10600'] = e.currentTarget.baseURI;
+                    window.ATL_JQ_PAGE_PROPS["d9e83178"].fieldValues['summary'] = 'Audit Request [' + AJS.$('#title-text').text().trim() + ']';
+                    AJS.$('#customfield_10600').attr("disabled", "disabled");
+
+                    e.preventDefault();
+                    showCollectorDialog();
+                });
+            },
+            fieldValues: function() {
+                var values = {};
+                values[ 'summary' ] = "Audit Request";
+                values[ 'description' ] = "";
+                values['customfield_10600'] = "https://";
+                // "https://confluence.rakuten-it.com/confluence"
+                values['link'] = AJS.params.baseUrl;
+                return values;
+            }
+        };
+
+    });
+
+</script>
+ -->
+
+<!--
+Issue collectors created for RTECHADM-3175
+-->
+
+<script type="text/javascript">
+  AJS.toInit(function() {
+    AJS.$.ajax({
+      url: "https://rakuten-am-security.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/azc3hx/b/8/b0105d975e9e59f24a3230a22972a71a/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=20884d49",
+      type: "get",
+      cache: true,
+      dataType: "script"
+    });
+
+    AJS.$.ajax({
+      url: "https://rakuten-am-security.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/azc3hx/b/8/b0105d975e9e59f24a3230a22972a71a/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector-embededjs.js?locale=en-US&collectorId=0176485a",
+      type: "get",
+      cache: true,
+      dataType: "script"
+    });
+
+    window.ATL_JQ_PAGE_PROPS = AJS.$.extend(window.ATL_JQ_PAGE_PROPS, {
+      // ==== AM Security cloud instance issue collector ====
+      '20884d49': {
+        // === custom trigger function ===
+        triggerFunction: function(showCollectorDialog) {
+          AJS.$('#amit-kr-button').click(function(e) {
+            e.preventDefault();
+            showCollectorDialog();
+          });
+        }
+      },
+      '0176485a': {
+        triggerFunction: function(showCollectorDialog) {
+          AJS.$('#amit-procurement-button').click(function(e) {
+            e.preventDefault();
+            showCollectorDialog();
+          });
+        }
+      }
+    });
+  });
+  </script>
+
+<!--
+    core_rjs
+-->
+<script>
+window.RJS=window.RJS||{};try{!function(a){a.CORE={jiraAppId:"6470f028-8a09-3eaa-bd01-3429b3c6c20c",makeRequest:function(a,b,c,d){this.checkProxyJs();var e=c?c:"GET",f=AppLinks.makeRequest({appId:a,type:e,url:b,data:JSON.stringify(d),contentType:"application/json; charset=utf-8",dataType:"json"});return f},checkProxyJs:function(){return"undefined"!=typeof AppLinks.makeRequest||void(AppLinks=AJS.$.extend(window.AppLinks||{},{makeRequest:function(a){var b=contextPath||AJS.contextPath();if(a.processData)a.appId?a.data=AJS.$.extend(a.data||{},{appId:a.appId}):a.appType&&(a.data=AJS.$.extend(a.data||{},{appType:a.appType})),a.data=AJS.$.extend(a.data||{},{path:a.url});else{var c=a.url;a=AJS.$.extend(a,{beforeSend:function(b){a.appId?b.setRequestHeader("X-AppId",a.appId):a.appType&&b.setRequestHeader("X-AppType",a.appType),b.setRequestHeader("X-AppPath",c)}})}return a=AJS.$.extend(a,{url:b+"/plugins/servlet/applinks/proxy"}),AJS.$.ajax(a)},createProxyGetUrl:function(a){var b="";a.includeContext&&(b=contextPath||AJS.contextPath());var c=b+"/plugins/servlet/applinks/proxy";if(a.appId)c+="?appId="+encodeURIComponent(a.appId);else{if(!a.appType)return AJS.log("You need to specify an appType or appId"),"";c+="?appType="+encodeURIComponent(a.appType)}return a.path&&(c+="&path="+encodeURIComponent(a.path)),c}}))}},a.JIRARESTAPI={attachmentMeta:function(a,b){var c="https://jira.rakuten-it.com/jira/rest/api/2/attachment/meta",d=RJS.CORE.makeRequest(RJS.CORE.jiraAppId,c);d.done(function(b){a.call(this,b)}),d.fail(function(a,c){b.call(this,a,c)})},search:function(a,b,c,d){var e="https://jira.rakuten-it.com/jira/rest/api/2/search",f="?jql="+encodeURI(a),g="";$.each(b,function(a,b){g+="&"+a+"="+b});var h=RJS.CORE.makeRequest(RJS.CORE.jiraAppId,e+f+g);return h.done(function(a){c.call(this,a)}),h.fail(function(a,b){d.call(this,a,b)}),h}},a.SUPPORT={dialogId:"#ratlassian-support-dialog",dialogButtonId:"#ratlassian-support-dialog-button",indicatorTr:{},getSupportPanel:function(){return AJS.$(this.dialogId+" .dialog-components:visible .dialog-page-body .dialog-panel-body")},setSupportPanel:function(a){a.each(function(a,b){var c=AJS.$(b).find("table tr");AJS.$(c).find("td:eq(0)");c.find("td[name=indicator]").remove(),c.prepend('<td name="indicator" class=""></td>'),c.find("td[name=indicator]").spin(),RJS.SUPPORT.indicatorTr[a]=c,AJS.$(b).find("div[name=indicator-legend]").remove(),AJS.$(b).find("table").after(AJS.$("<div>",{name:"indicator-legend"}));AJS.$(b).find("div[name=indicator-legend]")});var b=AJS.$(RJS.SUPPORT.dialogId+" .dialog-button-panel");b.find("SPAN[name=ticket-legend]").remove(),b.prepend(AJS.$("<span>",{name:"ticket-legend",class:"ratlassian-support-indicator-r margin-right-200",text:"Over 30 ticket"})),b.prepend(AJS.$("<span>",{name:"ticket-legend",class:"ratlassian-support-indicator-a",text:"Under 30 ticket"})),b.prepend(AJS.$("<span>",{name:"ticket-legend",class:"ratlassian-support-indicator-g",text:"Under 10 ticket"})),b.prepend(AJS.$("<span>",{name:"ticket-legend",class:"ratlassian-support-indicator-none",text:"0 ticket"})),b.prepend(AJS.$("<span>",{name:"ticket-legend",class:"ratlassian-support-indicator-null",text:"No count"}))},setIssueCount:function(a,b){var c=this.getStatusClass(b),d=AJS.$(a).find("td").eq(0).attr({class:c}).hide();d.fadeTo("slow",.9),null!==b&&AJS.$(a).find("td").eq(0).text(b)},getStatusClass:function(a){var b="ratlassian-support-indicator-";return null===a?b+="null":a>=30?b+="r":a<30&&a>=10?b+="a":a<10&&a>=1?b+="g":a<=0&&(b+="none"),b}}}(RJS)}catch(a){console&&console.log&&console.error&&(console.log("Error running RJS script."),console.error(a))}
+</script>
+
+<!--
+    Please check: https://confluence.rakuten-it.com/confluence/display/GDT/indicator
+-->
+
+<style>#ratlassian-support-dialog [class^=ratlassian-support-indicator]{text-align:center!important;border-radius:4px}#ratlassian-support-dialog TD[name=indicator]{min-width:20px}#ratlassian-support-dialog DIV[name=indicator-legend]{padding-top:4px;border-radius:4px}#ratlassian-support-dialog SPAN[class^=ratlassian-support-indicator]{text-align:center!important;padding-top:10px;padding:5px;margin:3px}#ratlassian-support-dialog .ratlassian-support-indicator-r{background-color:#d04437;color:white}#ratlassian-support-dialog .ratlassian-support-indicator-a{background-color:#f6c342;color:white}#ratlassian-support-dialog .ratlassian-support-indicator-g{background-color:#8eb021;color:white}#ratlassian-support-dialog .ratlassian-support-indicator-none{background-color:#2a67a5;color:white}#ratlassian-support-dialog .ratlassian-support-indicator-null{background-color:gainsboro;color:white} #ratlassian-support-dialog .margin-right-200 {margin-right:200px!important;}</style>
+<script>AJS.toInit(function(){AJS.$("#ratlassian-support-dialog-button").on("click",function(){var i=[];RJS.SUPPORT.setSupportPanel(RJS.SUPPORT.getSupportPanel()),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "JIRA Project" AND resolution = Unresolved',{maxResults:100,fields:"summary"},a)),i.push(RJS.JIRARESTAPI.search('(project = ASP OR project = ATLAS)  AND issuetype= "JIRA Customization" AND resolution = Unresolved',{maxResults:100,fields:"summary"},b)),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "Confluence Space" AND resolution = Unresolved',{maxResults:100,fields:"summary"},c)),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "Crowd Account" AND resolution = Unresolved',{maxResults:100,fields:"summary"},d)),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "Gitpub Project" AND resolution = Unresolved',{maxResults:100,fields:"summary"},e)),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "HipChat Account" AND resolution = Unresolved',{maxResults:100,fields:"summary"},f)),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "Network Access" AND resolution = Unresolved',{maxResults:100,fields:"summary"},g)),i.push(RJS.JIRARESTAPI.search('project=ASP AND issuetype= "Problem Report" AND resolution = Unresolved',{maxResults:100,fields:"summary"},h)),AJS.$.when.apply(AJS.$,i).done(function(){setTimeout(function(){AJS.$.each(RJS.SUPPORT.indicatorTr,function(a,b){AJS.$(b).each(function(a,c){AJS.$(c).find("td:eq(0)").text()||(AJS.$(b).find("td[name=indicator]").spinStop(),RJS.SUPPORT.setIssueCount(AJS.$(c),null))})})},100)})});var a=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[0][0],a.total)},b=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[0][1],a.total)},c=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[1][0],a.total)},d=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[0][4],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[1][2],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[2][1],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[3][3],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[4][0],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[6][1],a.total)},e=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[3][1],a.total)},f=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[5][0],a.total)},g=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[0][3],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[1][1],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[2][0],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[3][2],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[6][0],a.total)},h=function(a){RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[0][5],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[1][3],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[2][2],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[3][4],a.total),RJS.SUPPORT.setIssueCount(RJS.SUPPORT.indicatorTr[6][2],a.total)}});</script>
+        
+    </section>
+</div>
+
+    
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <span style="display:none;" id="confluence-server-performance">{"serverDuration": 34, "requestCorrelationId": "0c86ae8d318cc80f"}</span>
+</body>
+</html>
+    
