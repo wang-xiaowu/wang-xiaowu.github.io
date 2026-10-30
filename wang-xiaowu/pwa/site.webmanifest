@@ -1,0 +1,31 @@
+{
+    "id":"/wang-xiaowu/pwa/",
+    "start_url": "https://www.xiaowu95.wang/",
+    "name": "\u5c0f\u4e94\u7684\u4e2a\u4eba\u6742\u8d27\u94fa",
+    "short_name": "\u5c0f\u4e94\u7684\u4e2a\u4eba\u6742\u8d27\u94fa",
+    "icons": [
+        {
+            "src": "/wang-xiaowu/pwa/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/wang-xiaowu/pwa/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/wang-xiaowu/pwa/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/wang-xiaowu/pwa/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
